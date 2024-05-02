@@ -91,6 +91,18 @@ def gallery():
     logined = False
     return render_template('gallery.html')
 
+@ app.route('/loginsubmit',     methods=['POST'])
+def submit():
+    id = request.form.get('id')
+    
+    if id == "download_mc_mod":
+        return redirect('https://massivehard.online/download')
+    
+    if id == "buy_gbl":
+        return redirect('https://youtu.be/UIp6_0kct_U')
+    
+    else:
+        return abort(400, "Invalid id: {}".format(id))
 
 
 # 你必須保持路由定義在最後。
