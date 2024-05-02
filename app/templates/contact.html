@@ -17,13 +17,13 @@
       </script>
       <!--//meta tags ends here-->
       <!--booststrap-->
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <link href="{{ url_for('static',    filename='css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" media="all">
       <!--//booststrap end-->
       <!-- font-awesome icons -->
-      <link href="css/font-awesome.css" rel="stylesheet">
+      <link href="{{ url_for('static',    filename='css/font-awesome.css') }}" rel="stylesheet">
       <!-- //font-awesome icons -->
       <!--stylesheets-->
-      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+      <link href="{{ url_for('static',    filename='css/style.css') }}" rel='stylesheet' type='text/css' media="all">
       <!--//stylesheets-->
       <link href="http://fonts.googleapis.com/css?family=Mukta+Malar:400,500,600,700" rel="stylesheet">
       <link href="http://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
@@ -298,11 +298,11 @@
       </div>
       <!--//Register-->
       <!--js working-->
-      <script src='js/jquery-2.2.3.min.js'></script>
+      <script src="{{ url_for('static',    filename='js/jquery-2.2.3.min.js') }}"></script>
       <!--//js working-->
       <!-- start-smoth-scrolling -->
-      <script src="js/move-top.js"></script>
-      <script src="js/easing.js"></script>
+      <script src="{{ url_for('static',    filename='js/move-top.js') }}"></script>
+      <script src="{{ url_for('static',    filename='js/easing.js') }}"></script>
       <script>
          jQuery(document).ready(function ($) {
          	$(".scroll").click(function (event) {
@@ -332,7 +332,7 @@
       </script>
       <!-- //here ends scrolling icon -->
       <!--bootstrap working-->
-      <script src="js/bootstrap.min.js"></script>
+      <script src="{{ url_for('static',    filename='js/bootstrap.min.js') }}"></script>
       <!-- //bootstrap working-->
    </body>
 </html>

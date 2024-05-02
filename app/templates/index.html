@@ -19,12 +19,12 @@
       <!--booststrap-->
       <link href="{{ url_for('static',    filename='css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" media="all">
       <!--//booststrap end-->
-      <!-- <link rel="stylesheet" href="{{ url_for('static',    filename='css/bootstrap.min.css') }}"> -->
+      <!-- <link rel="stylesheet" href="{{ url_for('static',    filename='css/style.css') }}"> -->
       <!-- font-awesome icons -->
-      <link href="css/font-awesome.css" rel="stylesheet">
+      <link href="{{ url_for('static',    filename='css/font-awesome.css') }}" rel="stylesheet">
       <!-- //font-awesome icons -->
       <!--stylesheets-->
-      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+      <link href="{{ url_for('static',    filename='css/style.css') }}" rel='stylesheet' type='text/css' media="all">
       <!--//stylesheets-->
       <link href="http://fonts.googleapis.com/css?family=Mukta+Malar:400,500,600,700" rel="stylesheet">
       <link href="http://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
@@ -225,14 +225,14 @@
                </div>
                <div class="col-lg-4 col-md-4 ser-service gap-service text-center">
                   <div class="service-icon-one">
-                     <img src="images/ser1.png" alt="" class="img-fluid">
+                     <img src="{{ url_for('static',    filename='images/ser1.png') }}" alt="" class="img-fluid">
                   </div>
                </div>
             </div>
             <div class=" my-lg-5 my-md-4 my-sm-4 my-3 row mid-service">
                <div class="col-lg-4 col-md-4 ser-service  text-center">
                   <div class="service-icon-two move-right">
-                     <img src="images/ser2.png" alt="" class="img-fluid">
+                     <img src="{{ url_for('static',    filename='images/ser2.png') }}" alt="" class="img-fluid">
                   </div>
                </div>
                <div class="col-lg-8 col-md-8 service-wthree-info-left">
@@ -253,7 +253,7 @@
                </div>
                <div class="col-lg-4 col-md-4 ser-service gap-service text-center">
                   <div class="service-icon-three">
-                     <img src="images/ser3.png" alt="" class="img-fluid">
+                     <img src="{{ url_for('static',    filename='images/ser3.png') }}" alt="" class="img-fluid">
                   </div>
                </div>
             </div>
@@ -268,7 +268,7 @@
                <div class="col-lg-3 col-md-6 col-sm-6 ser-icon text-center">
                   <div class="team-position">
                      <div class="icon-wthree-top">
-                        <img src="images/t1.jpg" alt="" class="img-fluid">
+                        <img src="{{ url_for('static',    filename='images/t1.jpg') }}" alt="" class="img-fluid">
                      </div>
                      <div class="team-text-wthree">
                         <h4>
@@ -288,7 +288,7 @@
                <div class="col-lg-3 col-md-6 col-sm-6 ser-icon text-center">
                   <div class="team-position">
                      <div class="icon-wthree-top">
-                        <img src="images/t2.jpg" alt="" class="img-fluid">
+                        <img src="{{ url_for('static',    filename='images/t2.jpg') }}" alt="" class="img-fluid">
                      </div>
                      <div class="team-text-wthree">
                         <h4>
@@ -308,7 +308,7 @@
                <div class="col-lg-3 col-md-6 col-sm-6 ser-icon text-center">
                   <div class="team-position">
                      <div class="icon-wthree-top">
-                        <img src="images/t3.jpg" alt="" class="img-fluid">
+                        <img src="{{ url_for('static',    filename='images/t3.jpg') }}" alt="" class="img-fluid">
                      </div>
                      <div class="team-text-wthree">
                         <h4>
@@ -328,7 +328,7 @@
                <div class="col-lg-3 col-md-6 col-sm-6 ser-icon text-center">
                   <div class="team-position">
                      <div class="icon-wthree-top">
-                        <img src="images/t4.jpg" alt="" class="img-fluid">
+                        <img src="{{ url_for('static',    filename='images/t4.jpg') }}" alt="" class="img-fluid">
                      </div>
                      <div class="team-text-wthree">
                         <h4>
@@ -367,7 +367,7 @@
                            <div class="col-lg-4 clients-gride-img ">
                               <div class="clients-gride-grid">
                                  <div class="mb-3 clients-w3pvt-img">
-                                    <img src="images/c1.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ url_for('static',    filename='images/c1.jpg') }}" alt=" " class="img-fluid">
                                  </div>
                                  <div class="clients-color-wthree text-center">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
@@ -384,7 +384,7 @@
                            <div class="col-lg-4 clients-gride-img ">
                               <div class="clients-gride-grid">
                                  <div class="mb-3 clients-w3pvt-img">
-                                    <img src="images/c2.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ url_for('static',    filename='images/c2.jpg') }}" alt=" " class="img-fluid">
                                  </div>
                                  <div class="clients-color-wthree text-center">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
@@ -401,7 +401,7 @@
                            <div class="col-lg-4 clients-gride-img ">
                               <div class="clients-gride-grid">
                                  <div class="mb-3 clients-w3pvt-img">
-                                    <img src="images/c3.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ url_for('static',    filename='images/c3.jpg') }}" alt=" " class="img-fluid">
                                  </div>
                                  <div class="clients-color-wthree text-center">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
@@ -421,7 +421,7 @@
                            <div class="col-lg-4 clients-gride-img">
                               <div class="clients-gride-grid">
                                  <div class="mb-3 clients-w3pvt-img">
-                                    <img src="images/c1.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ url_for('static',    filename='images/c1.jpg') }}" alt=" " class="img-fluid">
                                  </div>
                                  <div class="clients-color-wthree text-center">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
@@ -438,7 +438,7 @@
                            <div class="col-lg-4 clients-gride-img">
                               <div class="clients-gride-grid">
                                  <div class="mb-3 clients-w3pvt-img">
-                                    <img src="images/c2.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ url_for('static',    filename='images/c2.jpg') }}" alt=" " class="img-fluid">
                                  </div>
                                  <div class="clients-color-wthree text-center">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
@@ -455,7 +455,7 @@
                            <div class="col-lg-4 clients-gride-img">
                               <div class="clients-gride-grid">
                                  <div class="mb-3 clients-w3pvt-img">
-                                    <img src="images/c3.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ url_for('static',    filename='images/c3.jpg') }}" alt=" " class="img-fluid">
                                  </div>
                                  <div class="clients-color-wthree text-center">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
@@ -476,7 +476,7 @@
                            <div class="col-lg-4 clients-gride-img ">
                               <div class="clients-gride-grid">
                                  <div class="mb-3 clients-w3pvt-img">
-                                    <img src="images/c1.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ url_for('static',    filename='images/c1.jpg') }}" alt=" " class="img-fluid">
                                  </div>
                                  <div class="clients-color-wthree text-center">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
@@ -493,7 +493,7 @@
                            <div class="col-lg-4 clients-gride-img">
                               <div class="clients-gride-grid">
                                  <div class="mb-3 clients-w3pvt-img">
-                                    <img src="images/c2.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ url_for('static',    filename='images/c2.jpg') }}" alt=" " class="img-fluid">
                                  </div>
                                  <div class="clients-color-wthree text-center">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
@@ -510,7 +510,7 @@
                            <div class="col-lg-4 clients-gride-img">
                               <div class="clients-gride-grid">
                                  <div class="mb-3 clients-w3pvt-img">
-                                    <img src="images/c3.jpg" alt=" " class="img-fluid">
+                                    <img src="{{ url_for('static',    filename='images/c3.jpg') }}" alt=" " class="img-fluid">
                                  </div>
                                  <div class="clients-color-wthree text-center">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
@@ -732,10 +732,10 @@
       </div>
       <!--//Register-->
       <!--js working-->
-      <script src='js/jquery-2.2.3.min.js'></script>
+      <script src="{{ url_for('static',    filename='js/jquery-2.2.3.min.js') }}"></script>
       <!--//js working--> 
       <!--responsiveslides banner-->
-      <script src="js/responsiveslides.min.js"></script>
+      <script src="{{ url_for('static',    filename='js/responsiveslides.min.js') }}"></script>
       <script>
          // You can also use "$(window).load(function() {"
          $(function () {
@@ -758,15 +758,15 @@
       </script>
       <!--// responsiveslides banner-->	 
       <!--About OnScroll-Number-Increase-JavaScript -->
-      <script src="js/jquery.waypoints.min.js"></script>
-      <script src="js/jquery.countup.js"></script>
+      <script src="{{ url_for('static',    filename='js/jquery.waypoints.min.js') }}"></script>
+      <script src="{{ url_for('static',    filename='js/jquery.countup.js') }}"></script>
       <script>
          $('.counter').countUp();
       </script>
       <!-- //OnScroll-Number-Increase-JavaScript -->  
       <!-- start-smoth-scrolling -->
-      <script src="js/move-top.js"></script>
-      <script src="js/easing.js"></script>
+      <script src="{{ url_for('static',    filename='js/move-top.js') }}"></script>
+      <script src="{{ url_for('static',    filename='js/easing.js') }}"></script>
       <script>
          jQuery(document).ready(function ($) {
          	$(".scroll").click(function (event) {
@@ -798,7 +798,7 @@
       </script>
       <!-- //here ends scrolling icon -->
       <!--bootstrap working-->
-      <script src="js/bootstrap.min.js"></script>
+      <script src="{{ url_for('static',    filename='js/bootstrap.min.js') }}"></script>
       <!-- //bootstrap working-->
    </body>
 </html>

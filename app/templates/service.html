@@ -17,13 +17,13 @@
       </script>
       <!--//meta tags ends here-->
       <!--booststrap-->
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <link href="{{ url_for('static',    filename='css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" media="all">
       <!--//booststrap end-->
       <!-- font-awesome icons -->
-      <link href="css/font-awesome.css" rel="stylesheet">
+      <link href="{{ url_for('static',    filename='css/font-awesome.css') }}" rel="stylesheet">
       <!-- //font-awesome icons -->
       <!--stylesheets-->
-      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+      <link href="{{ url_for('static',    filename='css/style.css') }}" rel='stylesheet' type='text/css' media="all">
       <!--//stylesheets-->
       <link href="http://fonts.googleapis.com/css?family=Mukta+Malar:400,500,600,700" rel="stylesheet">
       <link href="http://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
@@ -113,7 +113,7 @@
                   <div class="service-inner-list">
                      <div class="ser-inner-grid">
                         <div class="ser-w3layouts-inner">
-                           <img src="images/ss1.jpg" alt=" " class="img-fluid">
+                           <img src="{{ url_for('static',    filename='images/ss1.jpg') }}" alt=" " class="img-fluid">
                         </div>
                         <div class="ser-txt-inner">
                            <h4 class="py-3">Advice</h4>
@@ -126,7 +126,7 @@
                   <div class="service-inner-list">
                      <div class="ser-inner-grid">
                         <div class="ser-w3layouts-inner">
-                           <img src="images/ss3.jpg" alt=" " class="img-fluid">
+                           <img src="{{ url_for('static',    filename='images/ss3.jpg') }}" alt=" " class="img-fluid">
                         </div>
                         <div class="ser-txt-inner">
                            <h4 class="py-3">Growth</h4>
@@ -139,7 +139,7 @@
                   <div class="service-inner-list">
                      <div class="ser-inner-grid">
                         <div class="ser-w3layouts-inner">
-                           <img src="images/ss2.jpg" alt=" " class="img-fluid">
+                           <img src="{{ url_for('static',    filename='images/ss2.jpg') }}" alt=" " class="img-fluid">
                         </div>
                         <div class="ser-txt-inner">
                            <h4 class="py-3">Management</h4>
@@ -152,7 +152,7 @@
                   <div class="service-inner-list">
                      <div class="ser-inner-grid">
                         <div class="ser-w3layouts-inner">
-                           <img src="images/ss3.jpg" alt=" " class="img-fluid">
+                           <img src="{{ url_for('static',    filename='images/ss3.jpg') }}" alt=" " class="img-fluid">
                         </div>
                         <div class="ser-txt-inner">
                            <h4 class="py-3">Strategy</h4>
@@ -178,14 +178,14 @@
                </div>
                <div class="col-lg-4 col-md-4 ser-service gap-service text-center">
                   <div class="service-icon-one">
-                     <img src="images/ser1.png" alt="" class="img-fluid">
+                     <img src="{{ url_for('static',    filename='images/ser1.png') }}" alt="" class="img-fluid">
                   </div>
                </div>
             </div>
             <div class=" my-lg-5 my-md-4 my-sm-4 my-3 row mid-service">
                <div class="col-lg-4 col-md-4 ser-service  text-center">
                   <div class="service-icon-two move-right">
-                     <img src="images/ser2.png" alt="" class="img-fluid">
+                     <img src="{{ url_for('static',    filename='images/ser2.png') }}" alt="" class="img-fluid">
                   </div>
                </div>
                <div class="col-lg-8 col-md-8 service-wthree-info-left">
@@ -206,7 +206,7 @@
                </div>
                <div class="col-lg-4 col-md-4 ser-service gap-service text-center">
                   <div class="service-icon-three">
-                     <img src="images/ser3.png" alt="" class="img-fluid">
+                     <img src="{{ url_for('static',    filename='images/ser3.png') }}" alt="" class="img-fluid">
                   </div>
                </div>
             </div>
@@ -221,7 +221,7 @@
                <div class="col-lg-3 col-md-6 col-sm-6 ser-icon text-center">
                   <div class="team-position">
                      <div class="icon-wthree-top">
-                        <img src="images/t1.jpg" alt="" class="img-fluid">
+                        <img src="{{ url_for('static',    filename='images/t1.jpg') }}" alt="" class="img-fluid">
                      </div>
                      <div class="team-text-wthree">
                         <h4>
@@ -241,7 +241,7 @@
                <div class="col-lg-3 col-md-6 col-sm-6 ser-icon text-center">
                   <div class="team-position">
                      <div class="icon-wthree-top">
-                        <img src="images/t2.jpg" alt="" class="img-fluid">
+                        <img src="{{ url_for('static',    filename='images/t2.jpg') }}" alt="" class="img-fluid">
                      </div>
                      <div class="team-text-wthree">
                         <h4>
@@ -261,7 +261,7 @@
                <div class="col-lg-3 col-md-6 col-sm-6 ser-icon text-center">
                   <div class="team-position">
                      <div class="icon-wthree-top">
-                        <img src="images/t3.jpg" alt="" class="img-fluid">
+                        <img src="{{ url_for('static',    filename='images/t3.jpg') }}" alt="" class="img-fluid">
                      </div>
                      <div class="team-text-wthree">
                         <h4>
@@ -281,7 +281,7 @@
                <div class="col-lg-3 col-md-6 col-sm-6 ser-icon text-center">
                   <div class="team-position">
                      <div class="icon-wthree-top">
-                        <img src="images/t4.jpg" alt="" class="img-fluid">
+                        <img src="{{ url_for('static',    filename='images/t4.jpg') }}" alt="" class="img-fluid">
                      </div>
                      <div class="team-text-wthree">
                         <h4>
